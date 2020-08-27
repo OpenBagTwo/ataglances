@@ -1,0 +1,10 @@
+name: glances-monitoring
+dependencies:
+  - python=3
+  - ipython
+  - glances
+  - dash
+  - pyyaml
+  - pytest
+  - pytest-cov
+  - pyyaml
