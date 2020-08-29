@@ -8,4 +8,4 @@ dependencies:
   - pyyaml
   - pytest
   - pytest-cov
-  - pyyaml
+  - requests-mock
