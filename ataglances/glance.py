@@ -25,6 +25,10 @@ def request_data(address, endpoint, port=61208, api_version=3, timeout=0.01):
         ValueError
             If the response cannot be translated to JSON
     """
+    if api_version != 3:
+        raise NotImplementedError('ataglances only supports the Glances v3 API')
+    return requests.get(f'http://{address}:{port}/api/{api_version}/{endpoint}',
+                        timeout=timeout).json()
 
 
 def convert_list_response_to_dict(list_response):
