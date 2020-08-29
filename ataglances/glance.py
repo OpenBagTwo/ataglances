@@ -2,7 +2,7 @@
 import requests
 
 
-def request_data(address, endpoint, port=61208, api_version=3, timeout=0.01):
+def request_data(address, endpoint, port=61208, api_version=3, timeout=0.5):
     """Perform the GET request to the specified server and endpoint
 
     Args:
@@ -14,7 +14,7 @@ def request_data(address, endpoint, port=61208, api_version=3, timeout=0.01):
         api_version (int, optional): The server's Glances API version.
             Default is 3
         timeout (float, optional): Timeout time (in seconds) for the request.
-            Default is 0.01
+            Default is 0.5
 
     Returns:
         dict: the server's response

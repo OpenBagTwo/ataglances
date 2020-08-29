@@ -55,5 +55,5 @@ class TestRequestData:
         glance.request_data('tchaikovsky', 'demo')
         glance.request_data('tchaikovsky', 'demo', timeout=1.7)
 
-        assert timeout_values == [0.01, 1.7]
+        assert timeout_values == [0.5, 1.7]
 
