@@ -7,8 +7,7 @@ setup(name='ataglances',
       url='https://github.com/OpenBagTwo/ataglances',
       packages=['ataglances'],
       license='GPL v3',
-      install_requires=[
-      ],
+      install_requires=['requests'],
       include_package_data=True,
       version=versioneer.get_version(),
       cmdclass=versioneer.get_cmdclass())
