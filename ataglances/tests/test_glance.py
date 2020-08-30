@@ -1,7 +1,9 @@
 """Tests for Glances webserver interfacing functionality"""
 import pytest
 import requests
-import time
+import yaml
+
+from pathlib import Path
 
 from ataglances import glance
 
@@ -56,4 +58,23 @@ class TestRequestData:
         glance.request_data('tchaikovsky', 'demo', timeout=1.7)
 
         assert timeout_values == [0.5, 1.7]
+
+
+def load_sample_data():
+    samples = {}
+    for filename in Path(__file__).parent.joinpath('sample_responses').glob('*.yaml'):
+        samples[Path(filename).stem] = yaml.safe_load(Path(filename).open(mode='r'))
+    return samples
+
+
+SAMPLE_DATA = load_sample_data()
+
+
+class TestConvertListResponseToDict:
+
+    @pytest.mark.parametrize('sample_name', list(SAMPLE_DATA.keys()))
+    def test_smoketest(self, sample_name):
+        glance.convert_list_response_to_dict(SAMPLE_DATA[sample_name])
+
+
 
