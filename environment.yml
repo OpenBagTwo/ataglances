@@ -6,6 +6,8 @@ dependencies:
   - requests
   - dash
   - pyyaml
+  - black
+  - isort
   - pytest
   - pytest-cov
   - requests-mock
