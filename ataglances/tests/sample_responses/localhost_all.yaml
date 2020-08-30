@@ -1,0 +1,477 @@
+alert: []
+amps:
+- count: 0
+  countmax: 20.0
+  countmin: null
+  key: python
+  name: Python
+  refresh: 3.0
+  regex: true
+  result: null
+  timer: 30484.41612648964
+- count: 0
+  countmax: null
+  countmin: null
+  key: nginx
+  name: Nginx
+  refresh: 60.0
+  regex: true
+  result: null
+  timer: 30484.415792942047
+- count: 0
+  countmax: null
+  countmin: null
+  key: systemd
+  name: Systemd
+  refresh: 30.0
+  regex: true
+  result: null
+  timer: 30484.415486097336
+- count: 0
+  countmax: null
+  countmin: null
+  key: systemv
+  name: SystemV
+  refresh: 30.0
+  regex: true
+  result: null
+  timer: 30484.415165901184
+cloud: {}
+connections: {}
+core:
+  log: 8
+  phys: 4
+cpu:
+  cpucore: 8
+  ctx_switches: 1687438
+  guest: 0.0
+  guest_nice: 0.0
+  idle: 97.6
+  interrupts: 849106
+  iowait: 0.0
+  irq: 0.0
+  nice: 0.0
+  soft_interrupts: 386042
+  softirq: 0.1
+  steal: 0.0
+  syscalls: 0
+  system: 0.4
+  time_since_update: 466.0337748527527
+  total: 2.4
+  user: 2.0
+diskio: []
+docker:
+  containers: []
+folders: []
+fs:
+- device_name: /dev/hdd1p2
+  free: 315446116352
+  fs_type: ext4
+  key: mnt_point
+  mnt_point: /
+  percent: 32.3
+  size: 490652508160
+  used: 150211174400
+gpu: []
+help: null
+ip:
+  address: 192.168.0.63
+  gateway: 192.168.0.1
+  mask: 255.255.255.0
+  mask_cidr: 24
+  public_address: null
+
+load:
+  cpucore: 8
+  min1: 0.25
+  min15: 0.22
+  min5: 0.28
+mem:
+  active: 4429357056
+  available: 27621318656
+  buffers: 313851904
+  cached: 2797678592
+  free: 27621318656
+  inactive: 1393364992
+  percent: 12.5
+  shared: 207556608
+  total: 31556558848
+  used: 3935240192
+memswap:
+  free: 2147479552
+  percent: 0.0
+  sin: 0
+  sout: 0
+  total: 2147479552
+  used: 0
+network:
+- cumulative_cx: 888888
+  cumulative_rx: 444444
+  cumulative_tx: 444444
+  cx: 12602
+  interface_name: lo
+  is_up: true
+  key: interface_name
+  rx: 6301
+  speed: 0
+  time_since_update: 466.03463077545166
+  tx: 6301
+- cumulative_cx: 8675309
+  cumulative_rx: 112358
+  cumulative_tx: 8562951
+  cx: 2345
+  interface_name: blah
+  is_up: true
+  key: interface_name
+  rx: 1234
+  speed: 0
+  time_since_update: 466.03463077545166
+  tx: 3456
+now: 2020-08-29 19:45:31 EDT
+percpu:
+- cpu_number: 0
+  guest: 0.0
+  guest_nice: 0.0
+  idle: 97.4
+  iowait: 0.0
+  irq: 0.0
+  key: cpu_number
+  nice: 0.0
+  softirq: 0.4
+  steal: 0.0
+  system: 0.4
+  total: 2.6
+  user: 1.8
+- cpu_number: 1
+  guest: 0.0
+  guest_nice: 0.0
+  idle: 97.6
+  iowait: 0.0
+  irq: 0.0
+  key: cpu_number
+  nice: 0.0
+  softirq: 0.1
+  steal: 0.0
+  system: 0.4
+  total: 2.4
+  user: 1.8
+- cpu_number: 2
+  guest: 0.0
+  guest_nice: 0.0
+  idle: 97.6
+  iowait: 0.0
+  irq: 0.0
+  key: cpu_number
+  nice: 0.0
+  softirq: 0.1
+  steal: 0.0
+  system: 0.4
+  total: 2.4
+  user: 2.0
+- cpu_number: 3
+  guest: 0.0
+  guest_nice: 0.0
+  idle: 97.3
+  iowait: 0.0
+  irq: 0.0
+  key: cpu_number
+  nice: 0.0
+  softirq: 0.0
+  steal: 0.0
+  system: 0.4
+  total: 2.7
+  user: 2.2
+- cpu_number: 4
+  guest: 0.0
+  guest_nice: 0.0
+  idle: 97.5
+  iowait: 0.0
+  irq: 0.0
+  key: cpu_number
+  nice: 0.0
+  softirq: 0.0
+  steal: 0.0
+  system: 0.4
+  total: 2.5
+  user: 2.0
+- cpu_number: 5
+  guest: 0.0
+  guest_nice: 0.0
+  idle: 97.6
+  iowait: 0.0
+  irq: 0.0
+  key: cpu_number
+  nice: 0.0
+  softirq: 0.0
+  steal: 0.0
+  system: 0.4
+  total: 2.4
+  user: 2.0
+- cpu_number: 6
+  guest: 0.0
+  guest_nice: 0.0
+  idle: 97.7
+  iowait: 0.0
+  irq: 0.0
+  key: cpu_number
+  nice: 0.0
+  softirq: 0.0
+  steal: 0.0
+  system: 0.4
+  total: 2.3
+  user: 1.9
+- cpu_number: 7
+  guest: 0.0
+  guest_nice: 0.0
+  idle: 97.7
+  iowait: 0.0
+  irq: 0.0
+  key: cpu_number
+  nice: 0.0
+  softirq: 0.0
+  steal: 0.0
+  system: 0.4
+  total: 2.3
+  user: 1.9
+ports:
+- description: DefaultGateway
+  host: null
+  indice: port_0
+  port: 0
+  refresh: 30
+  rtt_warning: null
+  status: null
+  timeout: 3
+processcount:
+  pid_max: 0
+  running: 1
+  sleeping: 220
+  thread: 813
+  total: 290
+processlist:
+- cmdline:
+  - /app/pycharm/jbr/bin/java
+  - -classpath
+  - /app/pycharm/lib/bootstrap.jar:/app/pycharm/lib/extensions.jar:/app/pycharm/lib/util.jar:/app/pycharm/lib/jdom.jar:/app/pycharm/lib/log4j.jar:/app/pycharm/lib/trove4j.jar:/app/pycharm/lib/jna.jar
+  - -Xms128m
+  - -Xmx750m
+  - -XX:ReservedCodeCacheSize=240m
+  - -XX:+UseConcMarkSweepGC
+  - -XX:SoftRefLRUPolicyMSPerMB=50
+  - -ea
+  - -XX:CICompilerCount=2
+  - -Dsun.io.useCanonPrefixCache=false
+  - -Djdk.http.auth.tunneling.disabledSchemes=""
+  - -XX:+HeapDumpOnOutOfMemoryError
+  - -XX:-OmitStackTraceInFastThrow
+  - -Djdk.attach.allowAttachSelf=true
+  - -Dkotlinx.coroutines.debug=off
+  - -Djdk.module.illegalAccess.silent=true
+  - -Dawt.useSystemAAFontSettings=lcd
+  - -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine
+  - -Dsun.tools.attach.tmp.only=true
+  - -XX:ErrorFile=/home/openbagtwo/java_error_in_PYCHARM_%p.log
+  - -XX:HeapDumpPath=/home/openbagtwo/java_error_in_PYCHARM.hprof
+  - -Didea.vendor.name=JetBrains
+  - -Didea.paths.selector=PyCharmCE2020.2
+  - -Djb.vmOptionsFile=/app/pycharm/bin/pycharm64.vmoptions
+  - -Didea.platform.prefix=PyCharmCore
+  - com.intellij.idea.Main
+  cpu_affinity:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  cpu_percent: 24.9
+  cpu_times:
+  - 766.45
+  - 54.3
+  - 23.78
+  - 2.78
+  extended_stats: true
+  gids:
+  - 1000
+  - 1000
+  - 1000
+  io_counters:
+  - 10575872
+  - 474947584
+  - 10530816
+  - 460800000
+  - 1
+  ionice:
+  - 0
+  - 4
+  memory_info:
+  - 980525056
+  - 6943985664
+  - 70025216
+  - 4096
+  - 0
+  - 1044439040
+  - 0
+  memory_percent: 3.107198920905611
+  memory_swap: 0
+  name: java
+  nice: 0
+  num_ctx_switches:
+  - 1
+  - 0
+  num_fds: 144
+  num_threads: 57
+  pid: 7785
+  ppid: 7744
+  status: S
+  tcp: 2
+  time_since_update: 45.71152472496033
+  udp: 0
+  username: openbagtwo
+psutilversion:
+- 5
+- 4
+- 2
+quicklook:
+  cpu: 2.4
+  mem: 12.5
+  percpu:
+  - cpu_number: 0
+    guest: 0.0
+    guest_nice: 0.0
+    idle: 97.4
+    iowait: 0.0
+    irq: 0.0
+    key: cpu_number
+    nice: 0.0
+    softirq: 0.4
+    steal: 0.0
+    system: 0.4
+    total: 2.6
+    user: 1.8
+  - cpu_number: 1
+    guest: 0.0
+    guest_nice: 0.0
+    idle: 97.6
+    iowait: 0.0
+    irq: 0.0
+    key: cpu_number
+    nice: 0.0
+    softirq: 0.1
+    steal: 0.0
+    system: 0.4
+    total: 2.4
+    user: 1.8
+  - cpu_number: 2
+    guest: 0.0
+    guest_nice: 0.0
+    idle: 97.6
+    iowait: 0.0
+    irq: 0.0
+    key: cpu_number
+    nice: 0.0
+    softirq: 0.1
+    steal: 0.0
+    system: 0.4
+    total: 2.4
+    user: 2.0
+  - cpu_number: 3
+    guest: 0.0
+    guest_nice: 0.0
+    idle: 97.3
+    iowait: 0.0
+    irq: 0.0
+    key: cpu_number
+    nice: 0.0
+    softirq: 0.0
+    steal: 0.0
+    system: 0.4
+    total: 2.7
+    user: 2.2
+  - cpu_number: 4
+    guest: 0.0
+    guest_nice: 0.0
+    idle: 97.5
+    iowait: 0.0
+    irq: 0.0
+    key: cpu_number
+    nice: 0.0
+    softirq: 0.0
+    steal: 0.0
+    system: 0.4
+    total: 2.5
+    user: 2.0
+  - cpu_number: 5
+    guest: 0.0
+    guest_nice: 0.0
+    idle: 97.6
+    iowait: 0.0
+    irq: 0.0
+    key: cpu_number
+    nice: 0.0
+    softirq: 0.0
+    steal: 0.0
+    system: 0.4
+    total: 2.4
+    user: 2.0
+  - cpu_number: 6
+    guest: 0.0
+    guest_nice: 0.0
+    idle: 97.7
+    iowait: 0.0
+    irq: 0.0
+    key: cpu_number
+    nice: 0.0
+    softirq: 0.0
+    steal: 0.0
+    system: 0.4
+    total: 2.3
+    user: 1.9
+  - cpu_number: 7
+    guest: 0.0
+    guest_nice: 0.0
+    idle: 97.7
+    iowait: 0.0
+    irq: 0.0
+    key: cpu_number
+    nice: 0.0
+    softirq: 0.0
+    steal: 0.0
+    system: 0.4
+    total: 2.3
+    user: 1.9
+  swap: 0.0
+raid: {}
+sensors:
+- key: label
+  label: edge
+  type: temperature_core
+  unit: C
+  value: 44
+- key: label
+  label: Tdie
+  type: temperature_core
+  unit: C
+  value: 44
+- key: label
+  label: Tctl
+  type: temperature_core
+  unit: C
+  value: 44
+- key: label
+  label: iwlwifi_1 1
+  type: temperature_core
+  unit: C
+  value: 37
+smart: {}
+system:
+  hostname: tchaikovsky
+  hr_name: elementary 5.1.7 64bit
+  linux_distro: elementary 5.1.7
+  os_name: Linux
+  os_version: 5.4.0-42-generic
+  platform: 64bit
+uptime: '8:28:11'
+wifi: []
