@@ -1,0 +1,622 @@
+alert: []
+amps:
+- count: 0
+  countmax: 20.0
+  countmin: null
+  key: python
+  name: Python
+  refresh: 3.0
+  result: null
+  timer: 199850.558842659
+- count: 0
+  countmax: null
+  countmin: null
+  key: nginx
+  name: Nginx
+  refresh: 60.0
+  result: null
+  timer: 199850.55575680733
+- count: 0
+  countmax: null
+  countmin: null
+  key: systemd
+  name: Systemd
+  refresh: 30.0
+  result: null
+  timer: 199850.55357980728
+- count: 0
+  countmax: null
+  countmin: null
+  key: systemv
+  name: SystemV
+  refresh: 30.0
+  result: null
+  timer: 199850.55159926414
+batpercent: []
+cloud: {}
+core:
+  log: 4
+  phys: null
+cpu:
+  cpucore: 4
+  ctx_switches: 53115
+  guest: 0.0
+  guest_nice: 0.0
+  idle: 99.6
+  interrupts: 51958
+  iowait: 0.0
+  irq: 0.0
+  nice: 0.0
+  soft_interrupts: 14518
+  softirq: 0.0
+  steal: 0.0
+  syscalls: 0
+  system: 0.2
+  time_since_update: 314.6971459388733
+  total: 0.4
+  user: 0.2
+diskio:
+- disk_name: mmcblk0
+  key: disk_name
+  read_bytes: 0
+  read_count: 0
+  time_since_update: 314.70123744010925
+  write_bytes: 700416
+  write_count: 108
+- disk_name: mmcblk0p1
+  key: disk_name
+  read_bytes: 0
+  read_count: 0
+  time_since_update: 314.70123744010925
+  write_bytes: 0
+  write_count: 0
+- disk_name: mmcblk0p2
+  key: disk_name
+  read_bytes: 0
+  read_count: 0
+  time_since_update: 314.70123744010925
+  write_bytes: 700416
+  write_count: 108
+- disk_name: sdc
+  key: disk_name
+  read_bytes: 0
+  read_count: 0
+  time_since_update: 314.70123744010925
+  write_bytes: 0
+  write_count: 0
+- disk_name: sdc1
+  key: disk_name
+  read_bytes: 0
+  read_count: 0
+  time_since_update: 314.70123744010925
+  write_bytes: 0
+  write_count: 0
+- disk_name: sdc2
+  key: disk_name
+  read_bytes: 0
+  read_count: 0
+  time_since_update: 314.70123744010925
+  write_bytes: 0
+  write_count: 0
+- disk_name: sdb
+  key: disk_name
+  read_bytes: 0
+  read_count: 0
+  time_since_update: 314.70123744010925
+  write_bytes: 0
+  write_count: 0
+- disk_name: sdb1
+  key: disk_name
+  read_bytes: 0
+  read_count: 0
+  time_since_update: 314.70123744010925
+  write_bytes: 0
+  write_count: 0
+- disk_name: sdb2
+  key: disk_name
+  read_bytes: 0
+  read_count: 0
+  time_since_update: 314.70123744010925
+  write_bytes: 0
+  write_count: 0
+- disk_name: sdb3
+  key: disk_name
+  read_bytes: 0
+  read_count: 0
+  time_since_update: 314.70123744010925
+  write_bytes: 0
+  write_count: 0
+- disk_name: sdb4
+  key: disk_name
+  read_bytes: 0
+  read_count: 0
+  time_since_update: 314.70123744010925
+  write_bytes: 0
+  write_count: 0
+- disk_name: sdd
+  key: disk_name
+  read_bytes: 0
+  read_count: 0
+  time_since_update: 314.70123744010925
+  write_bytes: 0
+  write_count: 0
+- disk_name: sdd1
+  key: disk_name
+  read_bytes: 0
+  read_count: 0
+  time_since_update: 314.70123744010925
+  write_bytes: 0
+  write_count: 0
+- disk_name: sda
+  key: disk_name
+  read_bytes: 0
+  read_count: 0
+  time_since_update: 314.70123744010925
+  write_bytes: 0
+  write_count: 0
+- disk_name: sda1
+  key: disk_name
+  read_bytes: 0
+  read_count: 0
+  time_since_update: 314.70123744010925
+  write_bytes: 0
+  write_count: 0
+docker: {}
+folders: []
+fs:
+- device_name: /dev/root
+  free: 13049323520
+  fs_type: ext4
+  key: mnt_point
+  mnt_point: /
+  percent: 54.8
+  size: 30197911552
+  used: 15831814144
+- device_name: /dev/sdb3
+  free: 244861030400
+  fs_type: hfsplus
+  key: mnt_point
+  mnt_point: /mnt/stuff
+  percent: 83.7
+  size: 1499464687616
+  used: 1254603657216
+- device_name: /dev/sda1
+  free: 5897284640768
+  fs_type: ext4
+  key: mnt_point
+  mnt_point: /mnt/junk
+  percent: 21.8
+  size: 7937408143360
+  used: 1640030367744
+- device_name: /dev/sdc1
+  free: 114511249408
+  fs_type: vfat
+  key: mnt_point
+  mnt_point: /media/pi/SUPERSECRET
+  percent: 25.2
+  size: 153018564608
+  used: 38507315200
+gpu: []
+hddtemp: []
+help: null
+ip:
+  address: 192.168.86.138
+  gateway: 192.168.86.1
+  mask: 255.255.255.0
+  mask_cidr: 24
+  public_address: null
+irq:
+- irq_line: 19_arch_timer
+  irq_rate: 21885
+  key: irq_line
+  time_since_update: 314.7012674808502
+- irq_line: 41_kms
+  irq_rate: 18883
+  key: irq_line
+  time_since_update: 314.7012674808502
+- irq_line: IPI5
+  irq_rate: 3081
+  key: irq_line
+  time_since_update: 314.7012674808502
+- irq_line: IPI2
+  irq_rate: 2991
+  key: irq_line
+  time_since_update: 314.7012674808502
+- irq_line: 47_eth0
+  irq_rate: 2395
+  key: irq_line
+  time_since_update: 314.7012674808502
+load:
+  cpucore: 4
+  min1: 0.0
+  min15: 0.0
+  min5: 0.0
+mem:
+  active: 491266048
+  available: 1578266624
+  buffers: 183148544
+  cached: 699523072
+  free: 1578266624
+  inactive: 356446208
+  percent: 19.4
+  shared: 42045440
+  total: 1957892096
+  used: 379625472
+memswap:
+  free: 104853504
+  percent: 0.0
+  sin: 0
+  sout: 0
+  total: 104853504
+  used: 0
+network:
+- cumulative_cx: 352932825
+  cumulative_rx: 299181944
+  cumulative_tx: 53750881
+  cx: 469480
+  interface_name: eth0
+  is_up: true
+  key: interface_name
+  rx: 430077
+  speed: 1048576000
+  time_since_update: 314.7010667324066
+  tx: 39403
+- cumulative_cx: 0
+  cumulative_rx: 0
+  cumulative_tx: 0
+  cx: 0
+  interface_name: wlan0
+  is_up: true
+  key: interface_name
+  rx: 0
+  speed: 0
+  time_since_update: 314.7010667324066
+  tx: 0
+- cumulative_cx: 54153906
+  cumulative_rx: 27076953
+  cumulative_tx: 27076953
+  cx: 83360
+  interface_name: lo
+  is_up: true
+  key: interface_name
+  rx: 41680
+  speed: 0
+  time_since_update: 314.7010667324066
+  tx: 41680
+now: 2020-08-29 19:44:54 EDT
+percpu:
+- cpu_number: 0
+  guest: 0.0
+  guest_nice: 0.0
+  idle: 99.8
+  iowait: 0.0
+  irq: 0.0
+  key: cpu_number
+  nice: 0.0
+  softirq: 0.0
+  steal: 0.0
+  system: 0.1
+  total: 0.2
+  user: 0.1
+- cpu_number: 1
+  guest: 0.0
+  guest_nice: 0.0
+  idle: 99.9
+  iowait: 0.0
+  irq: 0.0
+  key: cpu_number
+  nice: 0.0
+  softirq: 0.0
+  steal: 0.0
+  system: 0.1
+  total: 0.1
+  user: 0.1
+- cpu_number: 2
+  guest: 0.0
+  guest_nice: 0.0
+  idle: 99.5
+  iowait: 0.0
+  irq: 0.0
+  key: cpu_number
+  nice: 0.0
+  softirq: 0.0
+  steal: 0.0
+  system: 0.1
+  total: 0.5
+  user: 0.3
+- cpu_number: 3
+  guest: 0.0
+  guest_nice: 0.0
+  idle: 99.3
+  iowait: 0.0
+  irq: 0.0
+  key: cpu_number
+  nice: 0.0
+  softirq: 0.0
+  steal: 0.0
+  system: 0.4
+  total: 0.7
+  user: 0.3
+ports:
+- description: DefaultGateway
+  host: null
+  indice: port_0
+  port: 0
+  refresh: 30
+  rtt_warning: null
+  status: null
+  timeout: 3
+processcount:
+  pid_max: 0
+  running: 1
+  sleeping: 102
+  thread: 253
+  total: 158
+processlist:
+- cmdline:
+  - lxpanel
+  - --profile
+  - LXDE-pi
+  cpu_percent: 0.1
+  cpu_times:
+  - 71.81
+  - 28.39
+  - 0.21
+  - 0.14
+  gids:
+  - 1000
+  - 1000
+  - 1000
+  io_counters:
+  - 10518528
+  - 13819904
+  - 10518528
+  - 13799424
+  - 1
+  memory_info:
+  - 31215616
+  - 155119616
+  - 23232512
+  - 118784
+  - 0
+  - 67272704
+  - 0
+  memory_percent: 1.5943481289788095
+  name: lxpanel
+  nice: 0
+  num_threads: 4
+  pid: 751
+  ppid: 629
+  status: S
+  time_since_update: 314.69723987579346
+  username: pi
+- cmdline:
+  - /usr/lib/udisks2/udisksd
+  cpu_percent: 0.1
+  cpu_times:
+  - 51.92
+  - 2.1
+  - 0.15
+  - 0.25
+  gids:
+  - 0
+  - 0
+  - 0
+  io_counters:
+  - 9626112
+  - 20480
+  - 9626112
+  - 20480
+  - 1
+  memory_info:
+  - 11218944
+  - 65634304
+  - 8015872
+  - 368640
+  - 0
+  - 45449216
+  - 0
+  memory_percent: 0.5730113535327332
+  name: udisksd
+  nice: 0
+  num_threads: 5
+  pid: 374
+  ppid: 1
+  status: S
+  time_since_update: 314.69723987579346
+  username: root
+- cmdline:
+  - 'avahi-daemon: running [pi.local]'
+  cpu_percent: 0.1
+  cpu_times:
+  - 71.07
+  - 85.06
+  - 0.0
+  - 0.0
+  gids:
+  - 113
+  - 113
+  - 113
+  io_counters:
+  - 405504
+  - 0
+  - 405504
+  - 0
+  - 1
+  memory_info:
+  - 3022848
+  - 6041600
+  - 2699264
+  - 106496
+  - 0
+  - 565248
+  - 0
+  memory_percent: 0.15439298244145933
+  name: avahi-daemon
+  nice: 0
+  num_threads: 1
+  pid: 394
+  ppid: 1
+  status: S
+  time_since_update: 314.69723987579346
+  username: avahi
+- cmdline:
+  - /usr/lib/xorg/Xorg
+  - :0
+  - -seat
+  - seat0
+  - -auth
+  - /var/run/lightdm/root/:0
+  - -nolisten
+  - tcp
+  - vt7
+  - -novtswitch
+  cpu_percent: 0.0
+  cpu_times:
+  - 20.05
+  - 58.31
+  - 0.02
+  - 0.01
+  gids:
+  - 0
+  - 0
+  - 0
+  io_counters:
+  - 38436864
+  - 909312
+  - 38436864
+  - 901120
+  - 1
+  memory_info:
+  - 64114688
+  - 140480512
+  - 48205824
+  - 1945600
+  - 0
+  - 22904832
+  - 0
+  memory_percent: 3.274679341675017
+  name: Xorg
+  nice: 0
+  num_threads: 2
+  pid: 542
+  ppid: 515
+  status: S
+  time_since_update: 314.69723987579346
+  username: root
+- cmdline:
+  - pcmanfm
+  - --desktop
+  - --profile
+  - LXDE-pi
+  cpu_percent: 0.0
+  cpu_times:
+  - 0.5
+  - 0.73
+  - 0.01
+  - 0.0
+  gids:
+  - 1000
+  - 1000
+  - 1000
+  io_counters:
+  - 22817792
+  - 0
+  - 22817792
+  - 0
+  - 1
+  memory_info:
+  - 21864448
+  - 74915840
+  - 17199104
+  - 192512
+  - 0
+  - 38330368
+  - 0
+  memory_percent: 1.1167340654099052
+  name: pcmanfm
+  nice: 0
+  num_threads: 3
+  pid: 754
+  ppid: 629
+  status: S
+  time_since_update: 314.69723987579346
+  username: pi
+psutilversion:
+- 5
+- 5
+- 1
+quicklook:
+  cpu: 0.4
+  mem: 19.4
+  percpu:
+  - cpu_number: 0
+    guest: 0.0
+    guest_nice: 0.0
+    idle: 99.8
+    iowait: 0.0
+    irq: 0.0
+    key: cpu_number
+    nice: 0.0
+    softirq: 0.0
+    steal: 0.0
+    system: 0.1
+    total: 0.2
+    user: 0.1
+  - cpu_number: 1
+    guest: 0.0
+    guest_nice: 0.0
+    idle: 99.9
+    iowait: 0.0
+    irq: 0.0
+    key: cpu_number
+    nice: 0.0
+    softirq: 0.0
+    steal: 0.0
+    system: 0.1
+    total: 0.1
+    user: 0.1
+  - cpu_number: 2
+    guest: 0.0
+    guest_nice: 0.0
+    idle: 99.5
+    iowait: 0.0
+    irq: 0.0
+    key: cpu_number
+    nice: 0.0
+    softirq: 0.0
+    steal: 0.0
+    system: 0.1
+    total: 0.5
+    user: 0.3
+  - cpu_number: 3
+    guest: 0.0
+    guest_nice: 0.0
+    idle: 99.3
+    iowait: 0.0
+    irq: 0.0
+    key: cpu_number
+    nice: 0.0
+    softirq: 0.0
+    steal: 0.0
+    system: 0.4
+    total: 0.7
+    user: 0.3
+  swap: 0.0
+raid: {}
+sensors:
+- key: label
+  label: cpu_thermal 1
+  type: temperature_core
+  unit: C
+  value: 28
+smart: {}
+system:
+  hostname: pi
+  hr_name: debian 10.4 32bit
+  linux_distro: debian 10.4
+  os_name: Linux
+  os_version: 5.4.51-v7l+
+  platform: 32bit
+uptime: 2 days, 7:31:02
+wifi: []
