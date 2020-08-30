@@ -1,9 +1,9 @@
 """Tests for Glances webserver interfacing functionality"""
+from pathlib import Path
+
 import pytest
 import requests
 import yaml
-
-from pathlib import Path
 
 from ataglances import glance
 
